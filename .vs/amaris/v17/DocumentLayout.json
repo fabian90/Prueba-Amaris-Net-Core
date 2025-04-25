@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52B10CE4-9BA4-4AB9-89F2-96B22C66F637}|amaris.Infrastructure\\amaris.Infrastructure.csproj|c:\\users\\rvt_r\\onedrive\\documents\\visual studio 2022\\prueba-amaris-net-core\\amaris.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52B10CE4-9BA4-4AB9-89F2-96B22C66F637}|amaris.Infrastructure\\amaris.Infrastructure.csproj|solutionrelative:amaris.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|c:\\users\\rvt_r\\onedrive\\documents\\visual studio 2022\\prueba-amaris-net-core\\amaris.core\\interfaces\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|solutionrelative:amaris.core\\interfaces\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|c:\\users\\rvt_r\\onedrive\\documents\\visual studio 2022\\prueba-amaris-net-core\\amaris.core\\interfaces\\repositories\\ifondorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|solutionrelative:amaris.core\\interfaces\\repositories\\ifondorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|c:\\users\\rvt_r\\onedrive\\documents\\visual studio 2022\\prueba-amaris-net-core\\amaris.core\\interfaces\\repositories\\itransaccionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|solutionrelative:amaris.core\\interfaces\\repositories\\itransaccionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16EBD5E-4BC8-4D67-8A2E-97C16CBB8658}|Commos\\Commos.csproj|c:\\users\\rvt_r\\onedrive\\documents\\visual studio 2022\\prueba-amaris-net-core\\commos\\repository\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16EBD5E-4BC8-4D67-8A2E-97C16CBB8658}|Commos\\Commos.csproj|solutionrelative:commos\\repository\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B16EBD5E-4BC8-4D67-8A2E-97C16CBB8658}|Commos\\Commos.csproj|c:\\users\\rvt_r\\onedrive\\documents\\visual studio 2022\\prueba-amaris-net-core\\commos\\repository\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B16EBD5E-4BC8-4D67-8A2E-97C16CBB8658}|Commos\\Commos.csproj|solutionrelative:commos\\repository\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52B10CE4-9BA4-4AB9-89F2-96B22C66F637}|amaris.Infrastructure\\amaris.Infrastructure.csproj|c:\\users\\rvt_r\\onedrive\\documents\\visual studio 2022\\prueba-amaris-net-core\\amaris.infrastructure\\repositories\\fondorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52B10CE4-9BA4-4AB9-89F2-96B22C66F637}|amaris.Infrastructure\\amaris.Infrastructure.csproj|solutionrelative:amaris.infrastructure\\repositories\\fondorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|c:\\users\\rvt_r\\onedrive\\documents\\visual studio 2022\\prueba-amaris-net-core\\amaris.core\\entities\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|solutionrelative:amaris.core\\entities\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|c:\\users\\rvt_r\\onedrive\\documents\\visual studio 2022\\prueba-amaris-net-core\\amaris.core\\entities\\fondo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|solutionrelative:amaris.core\\entities\\fondo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|c:\\users\\rvt_r\\onedrive\\documents\\visual studio 2022\\prueba-amaris-net-core\\amaris.core\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|solutionrelative:amaris.core\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52B10CE4-9BA4-4AB9-89F2-96B22C66F637}|amaris.Infrastructure\\amaris.Infrastructure.csproj|c:\\users\\rvt_r\\onedrive\\documents\\visual studio 2022\\prueba-amaris-net-core\\amaris.infrastructure\\data\\dynamodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52B10CE4-9BA4-4AB9-89F2-96B22C66F637}|amaris.Infrastructure\\amaris.Infrastructure.csproj|solutionrelative:amaris.infrastructure\\data\\dynamodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52B10CE4-9BA4-4AB9-89F2-96B22C66F637}|amaris.Infrastructure\\amaris.Infrastructure.csproj|c:\\users\\rvt_r\\onedrive\\documents\\visual studio 2022\\prueba-amaris-net-core\\amaris.infrastructure\\data\\configurations\\dynamodbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52B10CE4-9BA4-4AB9-89F2-96B22C66F637}|amaris.Infrastructure\\amaris.Infrastructure.csproj|solutionrelative:amaris.infrastructure\\data\\configurations\\dynamodbconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\Interfaces\\Repositories\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "amaris.Core\\Interfaces\\Repositories\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\Interfaces\\Repositories\\IUnitOfWork.cs",
+              "RelativeToolTip": "amaris.Core\\Interfaces\\Repositories\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T23:48:08.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITransaccionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\Interfaces\\Repositories\\ITransaccionRepository.cs",
+              "RelativeDocumentMoniker": "amaris.Core\\Interfaces\\Repositories\\ITransaccionRepository.cs",
+              "ToolTip": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\Interfaces\\Repositories\\ITransaccionRepository.cs",
+              "RelativeToolTip": "amaris.Core\\Interfaces\\Repositories\\ITransaccionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T23:48:30.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IFondoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\Interfaces\\Repositories\\IFondoRepository.cs",
+              "RelativeDocumentMoniker": "amaris.Core\\Interfaces\\Repositories\\IFondoRepository.cs",
+              "ToolTip": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\Interfaces\\Repositories\\IFondoRepository.cs",
+              "RelativeToolTip": "amaris.Core\\Interfaces\\Repositories\\IFondoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T22:53:44.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "amaris.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "amaris.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T22:30:37.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\Commos\\Repository\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Commos\\Repository\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\Commos\\Repository\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "Commos\\Repository\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T23:40:42.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\Commos\\Repository\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Commos\\Repository\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\Commos\\Repository\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "Commos\\Repository\\Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T23:40:50.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FondoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\Repositories\\FondoRepository.cs",
+              "RelativeDocumentMoniker": "amaris.Infrastructure\\Repositories\\FondoRepository.cs",
+              "ToolTip": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\Repositories\\FondoRepository.cs",
+              "RelativeToolTip": "amaris.Infrastructure\\Repositories\\FondoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T22:49:33.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Transaccion.cs",
+              "DocumentMoniker": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\Entities\\Transaccion.cs",
+              "RelativeDocumentMoniker": "amaris.Core\\Entities\\Transaccion.cs",
+              "ToolTip": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\Entities\\Transaccion.cs",
+              "RelativeToolTip": "amaris.Core\\Entities\\Transaccion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T23:11:46.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Fondo.cs",
+              "DocumentMoniker": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\Entities\\Fondo.cs",
+              "RelativeDocumentMoniker": "amaris.Core\\Entities\\Fondo.cs",
+              "ToolTip": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\Entities\\Fondo.cs",
+              "RelativeToolTip": "amaris.Core\\Entities\\Fondo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T23:11:40.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\Entities\\Cliente.cs",
+              "RelativeDocumentMoniker": "amaris.Core\\Entities\\Cliente.cs",
+              "ToolTip": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\Entities\\Cliente.cs",
+              "RelativeToolTip": "amaris.Core\\Entities\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T23:11:28.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DynamoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\Data\\DynamoDbContext.cs",
+              "RelativeDocumentMoniker": "amaris.Infrastructure\\Data\\DynamoDbContext.cs",
+              "ToolTip": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\Data\\DynamoDbContext.cs",
+              "RelativeToolTip": "amaris.Infrastructure\\Data\\DynamoDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T22:31:08.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DynamoDbConfig.cs",
+              "DocumentMoniker": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\Data\\Configurations\\DynamoDbConfig.cs",
+              "RelativeDocumentMoniker": "amaris.Infrastructure\\Data\\Configurations\\DynamoDbConfig.cs",
+              "ToolTip": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\Data\\Configurations\\DynamoDbConfig.cs",
+              "RelativeToolTip": "amaris.Infrastructure\\Data\\Configurations\\DynamoDbConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T21:58:36.814Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
