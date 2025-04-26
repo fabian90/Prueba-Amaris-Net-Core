@@ -1,6 +1,5 @@
 ﻿using amaris.Core.Interfaces.Repositories;
 using amaris.Infrastructure.Data;
-using Commons.Repository.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;

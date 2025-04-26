@@ -1,6 +1,4 @@
-﻿using Commons.Repository.Interfaces;
-
-namespace amaris.Core.Interfaces.Repositories
+﻿namespace amaris.Core.Interfaces.Repositories
 {
     public interface IUnitOfWork : IDisposable
     {

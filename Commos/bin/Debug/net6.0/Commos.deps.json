@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Commos/1.0.0": {
+        "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.7.407.1"
+        },
+        "runtime": {
+          "Commos.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.402.46": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.402.46"
+          }
+        }
+      },
+      "AWSSDK.DynamoDBv2/3.7.407.1": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.402.46"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.DynamoDBv2.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.407.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Commos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.7.402.46": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/W2Y/8PmNilP4qONoPJz5/AgHwvwblmE8wvf1nG+oqqd2fX88vUNRToHmdVxZUqjLtx64VryI7iGKRaPUDMkTA==",
+      "path": "awssdk.core/3.7.402.46",
+      "hashPath": "awssdk.core.3.7.402.46.nupkg.sha512"
+    },
+    "AWSSDK.DynamoDBv2/3.7.407.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8OQa1CO2oiTbP9iFGGo9VZ42cXKr9aMPydaFcRT6KOh3IA9Splr4Jtai/zHMvDNUiMNUD7gQCcVBGKXMvCA1Yg==",
+      "path": "awssdk.dynamodbv2/3.7.407.1",
+      "hashPath": "awssdk.dynamodbv2.3.7.407.1.nupkg.sha512"
+    }
+  }
+}

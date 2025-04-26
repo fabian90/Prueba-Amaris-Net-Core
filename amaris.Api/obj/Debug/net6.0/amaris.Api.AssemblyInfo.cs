@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("amaris.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6036daad7719ebc65736479b009922a7f32e5d2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69850ccb84d066a47c8f4243bf273a6b5226e6ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("amaris.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("amaris.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

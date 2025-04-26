@@ -26,7 +26,7 @@ namespace Commons.Repository.Repository
             return entity;
         }
 
-        public void AddRange(IEnumerable<TEntity> entities)
+        public async Task AddRange(IEnumerable<TEntity> entities)
         {
             var table = Table.LoadTable(_client, _tableName);
             var batch = table.CreateBatchWrite();
@@ -35,7 +35,7 @@ namespace Commons.Repository.Repository
                 var doc = Document.FromJson(JsonSerializer.Serialize(entity));
                 batch.AddDocumentToPut(doc);
             }
-            batch.ExecuteAsync().Wait(); // Podrías hacer este método async también
+            await batch.ExecuteAsync();
         }
 
         public async Task Delete(string id)
@@ -50,7 +50,7 @@ namespace Commons.Repository.Repository
             await table.DeleteItemAsync(entity.Id);
         }
 
-        public void DeleteRange(IEnumerable<TEntity> entities)
+        public async Task DeleteRange(IEnumerable<TEntity> entities)
         {
             var table = Table.LoadTable(_client, _tableName);
             var batch = table.CreateBatchWrite();
@@ -58,17 +58,17 @@ namespace Commons.Repository.Repository
             {
                 batch.AddKeyToDelete(entity.Id);
             }
-            batch.ExecuteAsync().Wait();
+            await batch.ExecuteAsync();
         }
 
-        public void Delete(Expression<Func<TEntity, bool>> predicate)
+        public Task Delete(Expression<Func<TEntity, bool>> predicate)
         {
-            throw new NotImplementedException("Se requiere un escaneo completo de la tabla. No recomendado en producción.");
+            throw new NotImplementedException("Requiere un escaneo completo de la tabla con filtros.");
         }
 
-        public IEnumerable<TEntity> GetAll()
+        public Task<IEnumerable<TEntity>> GetAll()
         {
-            throw new NotImplementedException("Para obtener todos los elementos, se debe usar un escaneo completo.");
+            throw new NotImplementedException("Se debe implementar con un escaneo completo de DynamoDB.");
         }
 
         public async Task<TEntity> GetById(string id)
@@ -87,19 +87,19 @@ namespace Commons.Repository.Repository
             throw new ArgumentException("Incorrect primary key.");
         }
 
-        public TEntity Get(Expression<Func<TEntity, bool>> predicate)
+        public Task<TEntity> Get(Expression<Func<TEntity, bool>> predicate)
         {
-            throw new NotImplementedException("Consulta con expresión requiere usar Scan con filtros.");
+            throw new NotImplementedException("Filtrar con expresiones requiere escanear toda la tabla.");
         }
 
-        public List<TEntity> GetFilter(Expression<Func<TEntity, bool>> predicate)
+        public Task<List<TEntity>> GetFilter(Expression<Func<TEntity, bool>> predicate)
         {
-            throw new NotImplementedException("Consulta con filtro requiere usar Scan con filtros.");
+            throw new NotImplementedException("No implementado: se requiere un escaneo con filtro.");
         }
 
-        public bool Exists(Expression<Func<TEntity, bool>> predicate)
+        public Task<bool> Exists(Expression<Func<TEntity, bool>> predicate)
         {
-            throw new NotImplementedException("No implementado. Requiere escanear la tabla.");
+            throw new NotImplementedException("Verificar existencia requiere escaneo con filtro.");
         }
 
         public async Task Update(TEntity entity)
@@ -109,7 +109,7 @@ namespace Commons.Repository.Repository
             await table.PutItemAsync(document);
         }
 
-        public void UpdateRange(IEnumerable<TEntity> entities)
+        public async Task UpdateRange(IEnumerable<TEntity> entities)
         {
             var table = Table.LoadTable(_client, _tableName);
             var batch = table.CreateBatchWrite();
@@ -118,12 +118,12 @@ namespace Commons.Repository.Repository
                 var doc = Document.FromJson(JsonSerializer.Serialize(entity));
                 batch.AddDocumentToPut(doc);
             }
-            batch.ExecuteAsync().Wait();
+            await batch.ExecuteAsync();
         }
 
-        public void UpdateProperties(TEntity entity, params Expression<Func<TEntity, object>>[] properties)
+        public Task UpdateProperties(TEntity entity, params Expression<Func<TEntity, object>>[] properties)
         {
-            throw new NotImplementedException("DynamoDB requiere expresiones de actualización manuales.");
+            throw new NotImplementedException("DynamoDB no permite updates parciales fácilmente.");
         }
 
         public void Dispose()

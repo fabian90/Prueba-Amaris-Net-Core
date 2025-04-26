@@ -1,4 +1,4 @@
-﻿namespace ifxNetworks.Core.Enumerations
+﻿namespace amaris.Core.Enumerations
 {
     public enum RoleType
     {

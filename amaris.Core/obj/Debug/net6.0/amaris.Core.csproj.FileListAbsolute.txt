@@ -1,0 +1,16 @@
+C:\Proyectos pruebas tecnicas\Prueba-Amaris-Net-Core\amaris.Core\obj\Debug\net6.0\amaris.Core.csproj.AssemblyReference.cache
+C:\Proyectos pruebas tecnicas\Prueba-Amaris-Net-Core\amaris.Core\obj\Debug\net6.0\amaris.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos pruebas tecnicas\Prueba-Amaris-Net-Core\amaris.Core\obj\Debug\net6.0\amaris.Core.AssemblyInfoInputs.cache
+C:\Proyectos pruebas tecnicas\Prueba-Amaris-Net-Core\amaris.Core\obj\Debug\net6.0\amaris.Core.AssemblyInfo.cs
+C:\Proyectos pruebas tecnicas\Prueba-Amaris-Net-Core\amaris.Core\obj\Debug\net6.0\amaris.Core.csproj.CoreCompileInputs.cache
+C:\Proyectos pruebas tecnicas\Prueba-Amaris-Net-Core\amaris.Core\obj\Debug\net6.0\amaris.Core.sourcelink.json
+C:\Proyectos pruebas tecnicas\Prueba-Amaris-Net-Core\amaris.Core\bin\Debug\net6.0\amaris.Core.deps.json
+C:\Proyectos pruebas tecnicas\Prueba-Amaris-Net-Core\amaris.Core\bin\Debug\net6.0\amaris.Core.dll
+C:\Proyectos pruebas tecnicas\Prueba-Amaris-Net-Core\amaris.Core\bin\Debug\net6.0\amaris.Core.pdb
+C:\Proyectos pruebas tecnicas\Prueba-Amaris-Net-Core\amaris.Core\bin\Debug\net6.0\Commos.dll
+C:\Proyectos pruebas tecnicas\Prueba-Amaris-Net-Core\amaris.Core\bin\Debug\net6.0\Commos.pdb
+C:\Proyectos pruebas tecnicas\Prueba-Amaris-Net-Core\amaris.Core\obj\Debug\net6.0\amaris.C.DAA5B3E0.Up2Date
+C:\Proyectos pruebas tecnicas\Prueba-Amaris-Net-Core\amaris.Core\obj\Debug\net6.0\amaris.Core.dll
+C:\Proyectos pruebas tecnicas\Prueba-Amaris-Net-Core\amaris.Core\obj\Debug\net6.0\refint\amaris.Core.dll
+C:\Proyectos pruebas tecnicas\Prueba-Amaris-Net-Core\amaris.Core\obj\Debug\net6.0\amaris.Core.pdb
+C:\Proyectos pruebas tecnicas\Prueba-Amaris-Net-Core\amaris.Core\obj\Debug\net6.0\ref\amaris.Core.dll

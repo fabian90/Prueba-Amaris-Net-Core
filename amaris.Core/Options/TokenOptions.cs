@@ -1,4 +1,4 @@
-﻿namespace ifxNetworks.Core.Options
+﻿namespace amaris.Core.Options
 {
     public class TokenOptions
     {

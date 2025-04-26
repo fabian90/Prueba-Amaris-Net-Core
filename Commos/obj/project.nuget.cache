@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "hZIHCpuWg8s=",
+  "dgSpecHash": "8G4Q7hvS3DE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\Commos\\Commos.csproj",
+  "projectFilePath": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\Commos\\Commos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rvt_r\\.nuget\\packages\\awssdk.core\\3.7.402.46\\awssdk.core.3.7.402.46.nupkg.sha512",
-    "C:\\Users\\rvt_r\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.407.1\\awssdk.dynamodbv2.3.7.407.1.nupkg.sha512"
+    "C:\\Users\\rvt_r\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.407.1\\awssdk.dynamodbv2.3.7.407.1.nupkg.sha512",
+    "C:\\Users\\rvt_r\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\rvt_r\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\rvt_r\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512"
   ],
   "logs": []
 }

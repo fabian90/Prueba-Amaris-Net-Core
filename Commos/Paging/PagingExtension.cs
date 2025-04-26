@@ -1,35 +1,37 @@
-﻿using Commons.Response;
-using Microsoft.EntityFrameworkCore;
+﻿using Amazon.DynamoDBv2.DocumentModel;
+using Commons.Response;
 
 namespace Commons.Paging
 {
     public static class PagingExtension
     {
         public static async Task<RecordsResponse<T>> GetPagedAsync<T>(
-            this IQueryable<T> query,
+            Table table,
             int page,
-            int take)
+            int take,
+            Func<Document, T> mapFunc)
         {
-            var originalPages = page;
-
-            page--;
-
-            if (page > 0)
-                page = page * take;
-
-            var result = new RecordsResponse<T>
+            var search = table.Scan(new ScanOperationConfig());
+            var allItems = new List<T>();
+            do
             {
-                Items = await query.Skip(page).Take(take).ToListAsync(),
-                Total = await query.CountAsync(),
-                Page = originalPages
+                var set = await search.GetNextSetAsync();
+                allItems.AddRange(set.Select(mapFunc));
+            } while (!search.IsDone);
+
+            var total = allItems.Count;
+            var pagedItems = allItems
+                .Skip((page - 1) * take)
+                .Take(take)
+                .ToList();
+
+            return new RecordsResponse<T>
+            {
+                Items = pagedItems,
+                Total = total,
+                Page = page,
+                Pages = (int)Math.Ceiling((double)total / take)
             };
-
-            if (result.Total > 0)
-            {
-                result.Pages = Convert.ToInt32(Math.Ceiling(Convert.ToDecimal(result.Total) / take));
-            }
-
-            return result;
         }
     }
 }
