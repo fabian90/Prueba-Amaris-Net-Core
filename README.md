@@ -12,8 +12,12 @@ Este es un proyecto desarrollado en .NET 6, estructurado en **Arquitectura Limpi
   - **Tecnologías**: C#, AutoMapper para la proyección de modelos.
 
 - **Amaris.Infrastructure**: 
-  - Esta capa es responsable de la implementación de la persistencia de datos y la comunicación con bases de datos. También puede incluir la configuración de servicios externos.
-  - **Tecnologías**: Entity Framework Core, SQL Server, patrones de repositorio.
+ -Implementa la persistencia de datos y las integraciones externas (por ejemplo DynamoDB, etc.).
+-También implementa los repositorios concretos y el patrón Unit of Work.
+- **Tecnologías**: Entity Framework Core, Amazon DynamoDB SDK.
+  
+- **Amaris.Commons**:
+-Contiene clases comunes y utilitarios compartidos por las otras capas, como configuraciones, constantes, helpers y estructuras base de respuesta (por ejemplo, paginación, validaciones genéricas, etc.).
 
 ## Patrones de Diseño
 
