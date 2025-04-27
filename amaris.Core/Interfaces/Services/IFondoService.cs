@@ -6,6 +6,6 @@ namespace amaris.Core.Interfaces.Services
     public interface IFondoService
     {
         Task<RecordsResponse<FondoResponse>> GetFondosPagedAsync(int page, int take);
-        Task<List<FondoResponse>> GetFondosDisponiblesAsync(string clienteId);
+        Task<ApiResponse<List<FondoResponse>>> GetFondosDisponiblesAsync();
     }
 }

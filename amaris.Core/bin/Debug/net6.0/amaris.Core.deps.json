@@ -9,10 +9,23 @@
       "amaris.Core/1.0.0": {
         "dependencies": {
           "AWSSDK.DynamoDBv2": "3.7.407.1",
-          "Commos": "1.0.0"
+          "AutoMapper": "12.0.0",
+          "Commos": "1.0.0",
+          "FluentValidation": "11.3.0"
         },
         "runtime": {
           "amaris.Core.dll": {}
+        }
+      },
+      "AutoMapper/12.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.0.0"
+          }
         }
       },
       "AWSSDK.Core/3.7.402.46": {
@@ -34,6 +47,15 @@
           }
         }
       },
+      "FluentValidation/11.3.0": {
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.3.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
       "Commos/1.0.0": {
         "dependencies": {
           "AWSSDK.DynamoDBv2": "3.7.407.1"
@@ -53,6 +75,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AutoMapper/12.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0Rmg0zI5AFu1O/y//o9VGyhxKjhggWpk9mOA1tp0DEVx40c61bs+lnQv+0jUq8XbniF7FKgIVvI1perqiMtLrA==",
+      "path": "automapper/12.0.0",
+      "hashPath": "automapper.12.0.0.nupkg.sha512"
+    },
     "AWSSDK.Core/3.7.402.46": {
       "type": "package",
       "serviceable": true,
@@ -66,6 +95,20 @@
       "sha512": "sha512-8OQa1CO2oiTbP9iFGGo9VZ42cXKr9aMPydaFcRT6KOh3IA9Splr4Jtai/zHMvDNUiMNUD7gQCcVBGKXMvCA1Yg==",
       "path": "awssdk.dynamodbv2/3.7.407.1",
       "hashPath": "awssdk.dynamodbv2.3.7.407.1.nupkg.sha512"
+    },
+    "FluentValidation/11.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AlsfUkdIzSMA2v091K0gT1YjEwc7YR5pIA5yq7PnZivhoH3YETMhZbUySzsLbJKhj/E3ei6nEgtqdm00AVHXeg==",
+      "path": "fluentvalidation/11.3.0",
+      "hashPath": "fluentvalidation.11.3.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
     "Commos/1.0.0": {
       "type": "project",

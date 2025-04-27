@@ -7,9 +7,9 @@ namespace amaris.Core.Interfaces.Services
 {
     public interface ITransaccionService
     {
-        Task<string> SuscribirAFondoAsync(TransaccionRequest request);
-        Task<string> CancelarFondoAsync(TransaccionRequest request);
-        Task<List<TransaccionResponse>> GetHistorialAsync(string clienteId);
+        Task<ApiResponse<TransaccionResponse>> SuscribirAFondoAsync(TransaccionRequest request);
+        Task<ApiResponse<TransaccionResponse>> CancelarFondoAsync(TransaccionRequest request);
+        Task<ApiResponse<List<TransaccionResponse>>> GetHistorialAsync(string clienteId);
         Task<RecordsResponse<TransaccionResponse>> GetTransaccionesPagedAsync(int page, int take);
     }
 }

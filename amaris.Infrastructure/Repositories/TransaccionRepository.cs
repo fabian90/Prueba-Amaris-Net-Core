@@ -5,8 +5,8 @@ using amaris.Infrastructure.Data;
 using Amazon.DynamoDBv2;
 using Amazon.DynamoDBv2.DocumentModel;
 using Commons.Paging;
-using Commons.Repository.Repository;
 using Commons.Response;
+using Commos.Repository.Repository;
 using System.Text.Json;
 
 namespace amaris.Infrastructure.Repositories
@@ -48,8 +48,23 @@ namespace amaris.Infrastructure.Repositories
 
         public async Task<List<Transaccion>> GetHistorialTransaccionesAsync(string clienteId)
         {
-            // Si el historial es lo mismo que todas las transacciones de un cliente, se reutiliza el método.
-            return await GetByClienteIdAsync(clienteId);
+            // Cargar la tabla de DynamoDB
+            var table = Table.LoadTable(_client, _tableName);
+
+            // Crear el filtro para buscar por ClienteId
+            var filter = new ScanFilter();
+            filter.AddCondition("IdCliente", ScanOperator.Equal, clienteId);
+
+            // Realizar la búsqueda en la tabla con el filtro
+            var search = table.Scan(filter);
+
+            // Obtener los documentos de la búsqueda
+            var documents = await search.GetNextSetAsync();
+
+            // Deserializar los documentos a una lista de transacciones
+            var transacciones = documents.Select(doc => JsonSerializer.Deserialize<Transaccion>(doc.ToJson())).ToList();
+
+            return transacciones;
         }
 
         public async Task<RecordsResponse<TransaccionResponse>> GetTransaccionPaged(int page, int take)

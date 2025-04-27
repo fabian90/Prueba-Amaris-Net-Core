@@ -4,8 +4,8 @@ using amaris.Core.Interfaces.Repositories;
 using amaris.Infrastructure.Data;
 using Amazon.DynamoDBv2;
 using Amazon.DynamoDBv2.DocumentModel;
-using Commons.Repository.Repository;
 using Commons.Response;
+using Commos.Repository.Repository;
 using System.Text.Json;
 
 namespace amaris.Infrastructure.Repositories

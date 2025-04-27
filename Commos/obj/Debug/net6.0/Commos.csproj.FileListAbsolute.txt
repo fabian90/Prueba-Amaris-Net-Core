@@ -11,3 +11,16 @@ C:\Proyectos pruebas tecnicas\Prueba-Amaris-Net-Core\Commos\obj\Debug\net6.0\Com
 C:\Proyectos pruebas tecnicas\Prueba-Amaris-Net-Core\Commos\obj\Debug\net6.0\refint\Commos.dll
 C:\Proyectos pruebas tecnicas\Prueba-Amaris-Net-Core\Commos\obj\Debug\net6.0\Commos.pdb
 C:\Proyectos pruebas tecnicas\Prueba-Amaris-Net-Core\Commos\obj\Debug\net6.0\ref\Commos.dll
+C:\Users\rvt_r\OneDrive\Documents\Visual Studio 2022\Prueba-Amaris-Net-Core\Commos\bin\Debug\net6.0\Commos.deps.json
+C:\Users\rvt_r\OneDrive\Documents\Visual Studio 2022\Prueba-Amaris-Net-Core\Commos\bin\Debug\net6.0\Commos.dll
+C:\Users\rvt_r\OneDrive\Documents\Visual Studio 2022\Prueba-Amaris-Net-Core\Commos\bin\Debug\net6.0\Commos.pdb
+C:\Users\rvt_r\OneDrive\Documents\Visual Studio 2022\Prueba-Amaris-Net-Core\Commos\obj\Debug\net6.0\Commos.csproj.AssemblyReference.cache
+C:\Users\rvt_r\OneDrive\Documents\Visual Studio 2022\Prueba-Amaris-Net-Core\Commos\obj\Debug\net6.0\Commos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rvt_r\OneDrive\Documents\Visual Studio 2022\Prueba-Amaris-Net-Core\Commos\obj\Debug\net6.0\Commos.AssemblyInfoInputs.cache
+C:\Users\rvt_r\OneDrive\Documents\Visual Studio 2022\Prueba-Amaris-Net-Core\Commos\obj\Debug\net6.0\Commos.AssemblyInfo.cs
+C:\Users\rvt_r\OneDrive\Documents\Visual Studio 2022\Prueba-Amaris-Net-Core\Commos\obj\Debug\net6.0\Commos.csproj.CoreCompileInputs.cache
+C:\Users\rvt_r\OneDrive\Documents\Visual Studio 2022\Prueba-Amaris-Net-Core\Commos\obj\Debug\net6.0\Commos.sourcelink.json
+C:\Users\rvt_r\OneDrive\Documents\Visual Studio 2022\Prueba-Amaris-Net-Core\Commos\obj\Debug\net6.0\Commos.dll
+C:\Users\rvt_r\OneDrive\Documents\Visual Studio 2022\Prueba-Amaris-Net-Core\Commos\obj\Debug\net6.0\refint\Commos.dll
+C:\Users\rvt_r\OneDrive\Documents\Visual Studio 2022\Prueba-Amaris-Net-Core\Commos\obj\Debug\net6.0\Commos.pdb
+C:\Users\rvt_r\OneDrive\Documents\Visual Studio 2022\Prueba-Amaris-Net-Core\Commos\obj\Debug\net6.0\ref\Commos.dll

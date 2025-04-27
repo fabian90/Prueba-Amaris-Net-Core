@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "5w8+P1tkWsc=",
+  "dgSpecHash": "+iFGBgprx5U=",
   "success": true,
-  "projectFilePath": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Api\\amaris.Api.csproj",
+  "projectFilePath": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Api\\amaris.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rvt_r\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\rvt_r\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\rvt_r\\.nuget\\packages\\awssdk.core\\3.7.402.46\\awssdk.core.3.7.402.46.nupkg.sha512",
     "C:\\Users\\rvt_r\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.407.1\\awssdk.dynamodbv2.3.7.407.1.nupkg.sha512",
-    "C:\\Users\\rvt_r\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\rvt_r\\.nuget\\packages\\fluentvalidation\\11.3.0\\fluentvalidation.11.3.0.nupkg.sha512",
     "C:\\Users\\rvt_r\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
     "C:\\Users\\rvt_r\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\rvt_r\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
@@ -50,11 +50,7 @@
     "C:\\Users\\rvt_r\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "C:\\Users\\rvt_r\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\rvt_r\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
-    "C:\\Users\\rvt_r\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
-    "C:\\Users\\rvt_r\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
-    "C:\\Users\\rvt_r\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
-    "C:\\Users\\rvt_r\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512",
-    "C:\\Users\\rvt_r\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.33\\microsoft.netcore.app.host.win-x64.6.0.33.nupkg.sha512"
+    "C:\\Users\\rvt_r\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
   ],
   "logs": []
 }

@@ -12,9 +12,9 @@ namespace amaris.Infrastructure.repositories
     {
         private readonly DynamoDbContext _context;
 
-        public IFondoRepository Fondos { get; }
-        public IClienteRepository Clientes { get; }
-        public ITransaccionRepository Transacciones { get; }
+        public IFondoRepository    FondoRepository { get; }
+        public IClienteRepository ClienteRepository { get; }
+        public ITransaccionRepository TransaccionRepository { get; }
 
         public UnitOfWork(DynamoDbContext context,
                           IFondoRepository fondoRepository,
@@ -22,9 +22,9 @@ namespace amaris.Infrastructure.repositories
                           ITransaccionRepository transaccionRepository)
         {
             _context = context;
-            Fondos = fondoRepository;
-            Clientes = clienteRepository;
-            Transacciones = transaccionRepository;
+            FondoRepository = fondoRepository;
+            ClienteRepository = clienteRepository;
+            TransaccionRepository = transaccionRepository;
         }
 
         public void SaveChanges()

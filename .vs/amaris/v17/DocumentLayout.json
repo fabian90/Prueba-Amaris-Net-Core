@@ -1,22 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\",
+  "WorkspaceRootPath": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|c:\\proyectos pruebas tecnicas\\prueba-amaris-net-core\\amaris.core\\dtos\\response\\transaccionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|solutionrelative:amaris.core\\dtos\\response\\transaccionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{99D5CECF-790B-427E-9E25-14E28C521D2F}|amaris.Api\\amaris.Api.csproj|c:\\users\\rvt_r\\onedrive\\documents\\visual studio 2022\\prueba-amaris-net-core\\amaris.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99D5CECF-790B-427E-9E25-14E28C521D2F}|amaris.Api\\amaris.Api.csproj|solutionrelative:amaris.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|c:\\proyectos pruebas tecnicas\\prueba-amaris-net-core\\amaris.core\\dtos\\response\\clienteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|solutionrelative:amaris.core\\dtos\\response\\clienteresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{99D5CECF-790B-427E-9E25-14E28C521D2F}|amaris.Api\\amaris.Api.csproj|c:\\users\\rvt_r\\onedrive\\documents\\visual studio 2022\\prueba-amaris-net-core\\amaris.api\\controllers\\transaccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99D5CECF-790B-427E-9E25-14E28C521D2F}|amaris.Api\\amaris.Api.csproj|solutionrelative:amaris.api\\controllers\\transaccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|c:\\proyectos pruebas tecnicas\\prueba-amaris-net-core\\amaris.core\\dtos\\request\\transaccionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|solutionrelative:amaris.core\\dtos\\request\\transaccionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{99D5CECF-790B-427E-9E25-14E28C521D2F}|amaris.Api\\amaris.Api.csproj|c:\\users\\rvt_r\\onedrive\\documents\\visual studio 2022\\prueba-amaris-net-core\\amaris.api\\validators\\transaccionrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99D5CECF-790B-427E-9E25-14E28C521D2F}|amaris.Api\\amaris.Api.csproj|solutionrelative:amaris.api\\validators\\transaccionrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|c:\\proyectos pruebas tecnicas\\prueba-amaris-net-core\\amaris.core\\entities\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|solutionrelative:amaris.core\\entities\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|c:\\users\\rvt_r\\onedrive\\documents\\visual studio 2022\\prueba-amaris-net-core\\amaris.core\\dtos\\request\\transaccionrequest.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|solutionrelative:amaris.core\\dtos\\request\\transaccionrequest.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|c:\\users\\rvt_r\\onedrive\\documents\\visual studio 2022\\prueba-amaris-net-core\\amaris.core\\services\\transaccionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|solutionrelative:amaris.core\\services\\transaccionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52B10CE4-9BA4-4AB9-89F2-96B22C66F637}|amaris.Infrastructure\\amaris.Infrastructure.csproj|c:\\users\\rvt_r\\onedrive\\documents\\visual studio 2022\\prueba-amaris-net-core\\amaris.infrastructure\\repositories\\fondorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52B10CE4-9BA4-4AB9-89F2-96B22C66F637}|amaris.Infrastructure\\amaris.Infrastructure.csproj|solutionrelative:amaris.infrastructure\\repositories\\fondorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|c:\\users\\rvt_r\\onedrive\\documents\\visual studio 2022\\prueba-amaris-net-core\\amaris.core\\interfaces\\services\\itransaccionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AE58611-97CA-4E38-B9A9-3D8CDDFAC063}|amaris.Core\\amaris.Core.csproj|solutionrelative:amaris.core\\interfaces\\services\\itransaccionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52B10CE4-9BA4-4AB9-89F2-96B22C66F637}|amaris.Infrastructure\\amaris.Infrastructure.csproj|c:\\users\\rvt_r\\onedrive\\documents\\visual studio 2022\\prueba-amaris-net-core\\amaris.infrastructure\\repositories\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52B10CE4-9BA4-4AB9-89F2-96B22C66F637}|amaris.Infrastructure\\amaris.Infrastructure.csproj|solutionrelative:amaris.infrastructure\\repositories\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +47,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TransaccionResponse.cs",
-              "DocumentMoniker": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Core\\DTOs\\Response\\TransaccionResponse.cs",
-              "RelativeDocumentMoniker": "amaris.Core\\DTOs\\Response\\TransaccionResponse.cs",
-              "ToolTip": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Core\\DTOs\\Response\\TransaccionResponse.cs",
-              "RelativeToolTip": "amaris.Core\\DTOs\\Response\\TransaccionResponse.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAA1AAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Api\\Program.cs",
+              "RelativeDocumentMoniker": "amaris.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Api\\Program.cs",
+              "RelativeToolTip": "amaris.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T05:03:48.647Z",
+              "WhenOpened": "2025-04-26T23:57:22.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ClienteResponse.cs",
-              "DocumentMoniker": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Core\\DTOs\\Response\\ClienteResponse.cs",
-              "RelativeDocumentMoniker": "amaris.Core\\DTOs\\Response\\ClienteResponse.cs",
-              "ToolTip": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Core\\DTOs\\Response\\ClienteResponse.cs",
-              "RelativeToolTip": "amaris.Core\\DTOs\\Response\\ClienteResponse.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "TransaccionController.cs",
+              "DocumentMoniker": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Api\\Controllers\\TransaccionController.cs",
+              "RelativeDocumentMoniker": "amaris.Api\\Controllers\\TransaccionController.cs",
+              "ToolTip": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Api\\Controllers\\TransaccionController.cs",
+              "RelativeToolTip": "amaris.Api\\Controllers\\TransaccionController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwB0AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T05:03:33.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Transaccion.cs",
-              "DocumentMoniker": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Core\\Entities\\Transaccion.cs",
-              "RelativeDocumentMoniker": "amaris.Core\\Entities\\Transaccion.cs",
-              "ToolTip": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Core\\Entities\\Transaccion.cs",
-              "RelativeToolTip": "amaris.Core\\Entities\\Transaccion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T03:57:31.669Z",
+              "WhenOpened": "2025-04-26T23:47:41.674Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TransaccionRequest.cs",
-              "DocumentMoniker": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Core\\DTOs\\Request\\TransaccionRequest.cs",
-              "RelativeDocumentMoniker": "amaris.Core\\DTOs\\Request\\TransaccionRequest.cs",
-              "ToolTip": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Core\\DTOs\\Request\\TransaccionRequest.cs",
-              "RelativeToolTip": "amaris.Core\\DTOs\\Request\\TransaccionRequest.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Title": "TransaccionRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Api\\Validators\\TransaccionRequestValidator.cs",
+              "RelativeDocumentMoniker": "amaris.Api\\Validators\\TransaccionRequestValidator.cs",
+              "ToolTip": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Api\\Validators\\TransaccionRequestValidator.cs",
+              "RelativeToolTip": "amaris.Api\\Validators\\TransaccionRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T03:56:54.821Z",
+              "WhenOpened": "2025-04-26T23:47:39.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransaccionRequest.cs",
+              "DocumentMoniker": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\DTOs\\Request\\TransaccionRequest.cs",
+              "RelativeDocumentMoniker": "amaris.Core\\DTOs\\Request\\TransaccionRequest.cs",
+              "ToolTip": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\DTOs\\Request\\TransaccionRequest.cs",
+              "RelativeToolTip": "amaris.Core\\DTOs\\Request\\TransaccionRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T23:40:44.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TransaccionService.cs",
+              "DocumentMoniker": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\Services\\TransaccionService.cs",
+              "RelativeDocumentMoniker": "amaris.Core\\Services\\TransaccionService.cs",
+              "ToolTip": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\Services\\TransaccionService.cs",
+              "RelativeToolTip": "amaris.Core\\Services\\TransaccionService.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAowG8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T23:26:31.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITransaccionService.cs",
+              "DocumentMoniker": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\Interfaces\\Services\\ITransaccionService.cs",
+              "RelativeDocumentMoniker": "amaris.Core\\Interfaces\\Services\\ITransaccionService.cs",
+              "ToolTip": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\Interfaces\\Services\\ITransaccionService.cs",
+              "RelativeToolTip": "amaris.Core\\Interfaces\\Services\\ITransaccionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T23:26:29.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FondoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\Repositories\\FondoRepository.cs",
+              "RelativeDocumentMoniker": "amaris.Infrastructure\\Repositories\\FondoRepository.cs",
+              "ToolTip": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\Repositories\\FondoRepository.cs",
+              "RelativeToolTip": "amaris.Infrastructure\\Repositories\\FondoRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T23:13:58.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\Repositories\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "amaris.Infrastructure\\Repositories\\ClienteRepository.cs",
+              "ToolTip": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\Repositories\\ClienteRepository.cs",
+              "RelativeToolTip": "amaris.Infrastructure\\Repositories\\ClienteRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T23:09:41.019Z",
               "EditorCaption": ""
             }
           ]

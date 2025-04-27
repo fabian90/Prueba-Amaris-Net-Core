@@ -1,21 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "mRUM4nwhico=",
+  "dgSpecHash": "L8hecW4JsRY=",
   "success": true,
-  "projectFilePath": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\amaris.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\amaris.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rvt_r\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\rvt_r\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\rvt_r\\.nuget\\packages\\awssdk.core\\3.7.402.46\\awssdk.core.3.7.402.46.nupkg.sha512",
     "C:\\Users\\rvt_r\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.407.1\\awssdk.dynamodbv2.3.7.407.1.nupkg.sha512",
+    "C:\\Users\\rvt_r\\.nuget\\packages\\fluentvalidation\\11.3.0\\fluentvalidation.11.3.0.nupkg.sha512",
     "C:\\Users\\rvt_r\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\rvt_r\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\rvt_r\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\rvt_r\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
-    "C:\\Users\\rvt_r\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\rvt_r\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
-    "C:\\Users\\rvt_r\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
-    "C:\\Users\\rvt_r\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512"
+    "C:\\Users\\rvt_r\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

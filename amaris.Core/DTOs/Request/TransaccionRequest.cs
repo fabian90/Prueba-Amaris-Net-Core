@@ -2,19 +2,25 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace amaris.Core.DTOs.Request
 {
     public class TransaccionRequest
     {
-        public string IdTransaccion { get; set; } // Este campo es necesario para la actualización
+        [JsonIgnore]
+        public string? IdTransaccion { get; set; } // Este campo es necesario para la actualización
         public string IdCliente { get; set; }
         public string IdFondo { get; set; }
-        public string Tipo { get; set; }
+        [JsonIgnore]
+        public string? Tipo { get; set; }
+        [JsonIgnore]
         public decimal Monto { get; set; }
+        [JsonIgnore]
         public DateTime Fecha { get; set; }
         public string MedioNotificacion { get; set; }
-        public string Descripcion { get; set; }
+        [JsonIgnore]
+        public string? Descripcion { get; set; }
     }
 }

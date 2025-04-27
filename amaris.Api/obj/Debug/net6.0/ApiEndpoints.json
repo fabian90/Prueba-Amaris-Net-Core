@@ -1,0 +1,134 @@
+[
+  {
+    "ContainingType": "amaris.API.Controllers.ClienteController",
+    "Method": "GetByDocumentoAsync",
+    "RelativePath": "api/Cliente/{documento}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documento",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "amaris.API.Controllers.ClienteController",
+    "Method": "TieneSaldoDisponible",
+    "RelativePath": "api/Cliente/saldo-disponible/{clienteId}/{montoRequerido}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clienteId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "montoRequerido",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "amaris.API.Controllers.ClienteController",
+    "Method": "GetSaldoAsync",
+    "RelativePath": "api/Cliente/saldo/{clienteId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clienteId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "amaris.API.Controllers.FondoController",
+    "Method": "GetFondosDisponiblesAsync",
+    "RelativePath": "api/Fondo/disponibles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "amaris.API.Controllers.TransaccionController",
+    "Method": "GetHistorialAsync",
+    "RelativePath": "api/Transaccion/{clienteId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clienteId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "amaris.API.Controllers.TransaccionController",
+    "Method": "CancelarFondo",
+    "RelativePath": "api/Transaccion/cancelar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "amaris.Core.DTOs.Request.TransaccionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "amaris.API.Controllers.TransaccionController",
+    "Method": "SuscribirAFondo",
+    "RelativePath": "api/Transaccion/suscribir",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "amaris.Core.DTOs.Request.TransaccionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "amaris.Api.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[amaris.Api.WeatherForecast, amaris.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

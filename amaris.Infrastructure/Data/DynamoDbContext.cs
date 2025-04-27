@@ -11,8 +11,13 @@ namespace amaris.Infrastructure.Data
 
         public DynamoDbContext()
         {
+            // Usar la configuración local de DynamoDB
             var config = DynamoDbConfig.GetLocalConfig(); // Usa configuración local
+
+            // Crear el cliente con la configuración proporcionada
             Client = new AmazonDynamoDBClient(config);
+
+            // Crear el contexto de DynamoDB para realizar operaciones
             Context = new DynamoDBContext(Client);
         }
     }

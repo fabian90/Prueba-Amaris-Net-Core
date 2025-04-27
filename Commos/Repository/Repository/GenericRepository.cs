@@ -5,7 +5,7 @@ using Commons.Repository.Interfaces;
 using System.Text.Json;
 using System.Linq.Expressions;
 
-namespace Commons.Repository.Repository
+namespace Commos.Repository.Repository
 {
     public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : BaseEntity
     {

@@ -2,9 +2,9 @@
 {
     public interface IUnitOfWork : IDisposable
     {
-        IFondoRepository Fondos { get; }
-        IClienteRepository Clientes { get; }
-        ITransaccionRepository Transacciones { get; }
+        IFondoRepository FondoRepository { get; }
+        IClienteRepository ClienteRepository { get; }
+        ITransaccionRepository TransaccionRepository { get; }
 
         void SaveChanges();
 

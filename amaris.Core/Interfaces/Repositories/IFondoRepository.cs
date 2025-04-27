@@ -13,5 +13,6 @@ namespace amaris.Core.Interfaces.Repositories
     public interface IFondoRepository : IGenericRepository<Fondo>
     {
         Task<RecordsResponse<FondoResponse>> GetFondosPaged(int page, int take);
+        Task<List<Fondo>> GetFondosDisponiblesAsync();
     }
 }
