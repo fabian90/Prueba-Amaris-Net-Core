@@ -66,3 +66,8 @@ jobs:
             --task-definition amaris-api-task \
             --desired-count 1 \
             --force-new-deployment
+
+      # 9. Establecer una variable de entorno para el tag de la imagen (opcional)
+      - name: Set image version in environment
+        run: |
+          echo "IMAGE_VERSION=latest" >> $GITHUB_ENV
