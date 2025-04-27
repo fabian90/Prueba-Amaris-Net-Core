@@ -12,14 +12,14 @@ jobs:
     steps:
       # 1. Limpiar la caché (opcional)
       - name: Clear the cache
-      run: |
-       rm -rf ~/.cache
+        run: |
+          rm -rf ~/.cache
 
-      # 1. Obtener el código desde el repositorio
+      # 2. Obtener el código desde el repositorio
       - name: Checkout code
         uses: actions/checkout@v2
 
-      # 2. Configurar AWS CLI
+      # 3. Configurar AWS CLI
       - name: Set up AWS CLI
         uses: aws-actions/configure-aws-credentials@v1
         with:
@@ -27,32 +27,32 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1  # Región en la que deseas desplegar
 
-      # 3. Establecer la variable de entorno IMAGE_VERSION
+      # 4. Establecer la variable de entorno IMAGE_VERSION
       - name: Set image version in environment
         run: |
           echo "IMAGE_VERSION=latest" >> $GITHUB_ENV
 
-      # 4. Construir la imagen Docker
+      # 5. Construir la imagen Docker
       - name: Build Docker image
         run: |
           docker build -t amaris-api:${{ env.IMAGE_VERSION }} .
 
-      # 5. Loguearse en AWS ECR
+      # 6. Loguearse en AWS ECR
       - name: Login to Amazon ECR
         run: |
           aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com
 
-      # 6. Etiquetar la imagen
+      # 7. Etiquetar la imagen
       - name: Tag Docker image
         run: |
           docker tag amaris-api:${{ env.IMAGE_VERSION }} <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com/amaris-api:${{ env.IMAGE_VERSION }}
 
-      # 7. Subir la imagen a ECR
+      # 8. Subir la imagen a ECR
       - name: Push Docker image to ECR
         run: |
           docker push <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com/amaris-api:${{ env.IMAGE_VERSION }}
 
-      # 8. Registrar la Task Definition en ECS
+      # 9. Registrar la Task Definition en ECS
       - name: Register ECS task definition
         run: |
           aws ecs register-task-definition \
@@ -67,7 +67,7 @@ jobs:
               "portMappings": [{"containerPort": 80, "hostPort": 80, "protocol": "tcp"}]
             }]'
 
-      # 9. Actualizar el servicio ECS para usar la nueva imagen
+      # 10. Actualizar el servicio ECS para usar la nueva imagen
       - name: Update ECS service
         run: |
           aws ecs update-service \
