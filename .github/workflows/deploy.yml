@@ -9,6 +9,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    environment: production  # Aquí especificamos el entorno de despliegue
+
     steps:
       # 1. Limpiar la caché (opcional)
       - name: Clear the cache
