@@ -22,27 +22,32 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1  # Región en la que deseas desplegar
 
-      # 3. Construir la imagen Docker
+      # 3. Establecer la variable de entorno IMAGE_VERSION
+      - name: Set image version in environment
+        run: |
+          echo "IMAGE_VERSION=latest" >> $GITHUB_ENV
+
+      # 4. Construir la imagen Docker
       - name: Build Docker image
         run: |
-          docker build -t amaris-api .
+          docker build -t amaris-api:${{ env.IMAGE_VERSION }} .
 
-      # 4. Loguearse en AWS ECR
+      # 5. Loguearse en AWS ECR
       - name: Login to Amazon ECR
         run: |
           aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com
 
-      # 5. Etiquetar la imagen
+      # 6. Etiquetar la imagen
       - name: Tag Docker image
         run: |
-          docker tag amaris-api:latest <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com/amaris-api:latest
+          docker tag amaris-api:${{ env.IMAGE_VERSION }} <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com/amaris-api:${{ env.IMAGE_VERSION }}
 
-      # 6. Subir la imagen a ECR
+      # 7. Subir la imagen a ECR
       - name: Push Docker image to ECR
         run: |
-          docker push <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com/amaris-api:latest
+          docker push <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com/amaris-api:${{ env.IMAGE_VERSION }}
 
-      # 7. Registrar la Task Definition en ECS
+      # 8. Registrar la Task Definition en ECS
       - name: Register ECS task definition
         run: |
           aws ecs register-task-definition \
@@ -50,14 +55,14 @@ jobs:
             --network-mode awsvpc \
             --container-definitions '[{
               "name": "amaris-api",
-              "image": "<aws_account_id>.dkr.ecr.us-east-1.amazonaws.com/amaris-api:latest",
+              "image": "<aws_account_id>.dkr.ecr.us-east-1.amazonaws.com/amaris-api:${{ env.IMAGE_VERSION }}",
               "memory": 512,
               "cpu": 256,
               "essential": true,
               "portMappings": [{"containerPort": 80, "hostPort": 80, "protocol": "tcp"}]
             }]'
 
-      # 8. Actualizar el servicio ECS para usar la nueva imagen
+      # 9. Actualizar el servicio ECS para usar la nueva imagen
       - name: Update ECS service
         run: |
           aws ecs update-service \
@@ -66,8 +71,3 @@ jobs:
             --task-definition amaris-api-task \
             --desired-count 1 \
             --force-new-deployment
-
-      # 9. Establecer una variable de entorno para el tag de la imagen (opcional)
-      - name: Set image version in environment
-        run: |
-          echo "IMAGE_VERSION=latest" >> $GITHUB_ENV
