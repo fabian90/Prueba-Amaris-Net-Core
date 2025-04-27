@@ -10,6 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1. Limpiar la caché (opcional)
+      - name: Clear the cache
+      run: |
+       rm -rf ~/.cache
+
       # 1. Obtener el código desde el repositorio
       - name: Checkout code
         uses: actions/checkout@v2
