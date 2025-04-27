@@ -22,10 +22,10 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1  # Región en la que deseas desplegar
 
-      # 3. Establecer la variable de entorno IMAGE_VERSION desde el secret
+      # 3. Establecer la variable de entorno IMAGE_VERSION
       - name: Set image version in environment
         run: |
-          echo "IMAGE_VERSION=${{ secrets.IMAGE_VERSION }}" >> $GITHUB_ENV
+          echo "IMAGE_VERSION=latest" >> $GITHUB_ENV
 
       # 4. Construir la imagen Docker
       - name: Build Docker image
