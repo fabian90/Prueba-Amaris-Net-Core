@@ -71,3 +71,33 @@ Este proyecto utiliza las siguientes librerías:
    git clone [https://github.com/fabian90/PruebaAmaris.git](https://github.com/fabian90/Prueba-Amaris-Net-Core.git)
    cd Amaris
 
+# Amaris Fondos API
+
+Aplicación .NET para gestión de fondos de inversión.
+
+## Estructura del proyecto
+
+- **amaris.Api**: API REST principal
+- **amaris.Core**: Lógica de negocio y entidades
+- **amaris.Infrastructure**: Acceso a DynamoDB
+- **cloudformation/**: Plantillas AWS para despliegue automático
+
+## Despliegue
+
+1. Compilar la app:
+    ```bash
+    dotnet build
+    ```
+
+2. Publicar la imagen en ECR:
+    ```bash
+    docker build -t amaris-api .
+    docker push <AWS_ACCOUNT_ID>.dkr.ecr.<REGION>.amazonaws.com/amaris-api:latest
+    ```
+
+3. Aplicar las plantillas CloudFormation:
+    ```bash
+    aws cloudformation deploy --template-file cloudformation/ecs-cluster.yaml --stack-name amaris-api-stack --capabilities CAPABILITY_NAMED_IAM
+    ```
+
+4. Acceder a la API a través del Load Balancer (salida del stack).

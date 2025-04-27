@@ -1,0 +1,68 @@
+name: Deploy to AWS Fargate
+
+on:
+  push:
+    branches:
+      - main  # Se ejecuta cuando haces push a la rama principal
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Obtener el código desde el repositorio
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # 2. Configurar AWS CLI
+      - name: Set up AWS CLI
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1  # Región en la que deseas desplegar
+
+      # 3. Construir la imagen Docker
+      - name: Build Docker image
+        run: |
+          docker build -t amaris-api .
+
+      # 4. Loguearse en AWS ECR
+      - name: Login to Amazon ECR
+        run: |
+          aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com
+
+      # 5. Etiquetar la imagen
+      - name: Tag Docker image
+        run: |
+          docker tag amaris-api:latest <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com/amaris-api:latest
+
+      # 6. Subir la imagen a ECR
+      - name: Push Docker image to ECR
+        run: |
+          docker push <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com/amaris-api:latest
+
+      # 7. Registrar la Task Definition en ECS
+      - name: Register ECS task definition
+        run: |
+          aws ecs register-task-definition \
+            --family amaris-api-task \
+            --network-mode awsvpc \
+            --container-definitions '[{
+              "name": "amaris-api",
+              "image": "<aws_account_id>.dkr.ecr.us-east-1.amazonaws.com/amaris-api:latest",
+              "memory": 512,
+              "cpu": 256,
+              "essential": true,
+              "portMappings": [{"containerPort": 80, "hostPort": 80, "protocol": "tcp"}]
+            }]'
+
+      # 8. Actualizar el servicio ECS para usar la nueva imagen
+      - name: Update ECS service
+        run: |
+          aws ecs update-service \
+            --cluster amaris-fondos-cluster \
+            --service amaris-api-service \
+            --task-definition amaris-api-task \
+            --desired-count 1 \
+            --force-new-deployment

@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: ECS Cluster para Fondos App
+
+Resources:
+  ECSCluster:
+    Type: AWS::ECS::Cluster
+    Properties:
+      ClusterName: amaris-fondos-cluster
+
+Outputs:
+  ECSClusterName:
+    Value: !Ref ECSCluster
