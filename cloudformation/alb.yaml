@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Application Load Balancer para Fondos App
+
+Resources:
+  LoadBalancer:
+    Type: AWS::ElasticLoadBalancingV2::LoadBalancer
+    Properties:
+      Name: amaris-alb
+      Subnets:
+        - !ImportValue PublicSubnetId
+      SecurityGroups: []
+      Scheme: internet-facing
+      Type: application
+      IpAddressType: ipv4
+
+Outputs:
+  LoadBalancerDNS:
+    Value: !GetAtt LoadBalancer.DNSName

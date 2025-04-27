@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Api\\amaris.Api.csproj": {}
+    "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Api\\amaris.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Api\\amaris.Api.csproj": {
+    "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Api\\amaris.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Api\\amaris.Api.csproj",
+        "projectUniqueName": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Api\\amaris.Api.csproj",
         "projectName": "amaris.Api",
-        "projectPath": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Api\\amaris.Api.csproj",
+        "projectPath": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Api\\amaris.Api.csproj",
         "packagesPath": "C:\\Users\\rvt_r\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Api\\obj\\",
+        "outputPath": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\rvt_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -33,11 +35,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\amaris.Core.csproj": {
-                "projectPath": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\amaris.Core.csproj"
+              "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Core\\amaris.Core.csproj": {
+                "projectPath": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Core\\amaris.Core.csproj"
               },
-              "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\amaris.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\amaris.Infrastructure.csproj"
+              "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\amaris.Infrastructure.csproj": {
+                "projectPath": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\amaris.Infrastructure.csproj"
               }
             }
           }
@@ -91,6 +93,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -103,22 +123,24 @@
         }
       }
     },
-    "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\amaris.Core.csproj": {
+    "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Core\\amaris.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\amaris.Core.csproj",
+        "projectUniqueName": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Core\\amaris.Core.csproj",
         "projectName": "amaris.Core",
-        "projectPath": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\amaris.Core.csproj",
+        "projectPath": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Core\\amaris.Core.csproj",
         "packagesPath": "C:\\Users\\rvt_r\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\obj\\",
+        "outputPath": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\rvt_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -132,8 +154,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\Commos\\Commos.csproj": {
-                "projectPath": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\Commos\\Commos.csproj"
+              "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\Commos\\Commos.csproj": {
+                "projectPath": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\Commos\\Commos.csproj"
               }
             }
           }
@@ -177,6 +199,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -186,22 +222,24 @@
         }
       }
     },
-    "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\amaris.Infrastructure.csproj": {
+    "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\amaris.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\amaris.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\amaris.Infrastructure.csproj",
         "projectName": "amaris.Infrastructure",
-        "projectPath": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\amaris.Infrastructure.csproj",
+        "projectPath": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\amaris.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\rvt_r\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\obj\\",
+        "outputPath": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\rvt_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -215,8 +253,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\amaris.Core.csproj": {
-                "projectPath": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\amaris.Core\\amaris.Core.csproj"
+              "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Core\\amaris.Core.csproj": {
+                "projectPath": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\amaris.Core\\amaris.Core.csproj"
               }
             }
           }
@@ -256,6 +294,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -265,22 +317,24 @@
         }
       }
     },
-    "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\Commos\\Commos.csproj": {
+    "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\Commos\\Commos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\Commos\\Commos.csproj",
+        "projectUniqueName": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\Commos\\Commos.csproj",
         "projectName": "Commos",
-        "projectPath": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\Commos\\Commos.csproj",
+        "projectPath": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\Commos\\Commos.csproj",
         "packagesPath": "C:\\Users\\rvt_r\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rvt_r\\OneDrive\\Documents\\Visual Studio 2022\\Prueba-Amaris-Net-Core\\Commos\\obj\\",
+        "outputPath": "C:\\Proyectos pruebas tecnicas\\Prueba-Amaris-Net-Core\\Commos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\rvt_r\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -327,6 +381,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

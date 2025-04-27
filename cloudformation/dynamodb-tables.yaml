@@ -1,0 +1,50 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Plantilla para crear las tablas DynamoDB de la aplicación de fondos de inversión.
+
+Resources:
+  FondosTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: Fondos
+      AttributeDefinitions:
+        - AttributeName: IdFondo
+          AttributeType: S
+      KeySchema:
+        - AttributeName: IdFondo
+          KeyType: HASH
+      BillingMode: PAY_PER_REQUEST
+
+  ClientesTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: Clientes
+      AttributeDefinitions:
+        - AttributeName: IdCliente
+          AttributeType: S
+      KeySchema:
+        - AttributeName: IdCliente
+          KeyType: HASH
+      BillingMode: PAY_PER_REQUEST
+
+  TransaccionesTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: Transacciones
+      AttributeDefinitions:
+        - AttributeName: IdTransaccion
+          AttributeType: S
+      KeySchema:
+        - AttributeName: IdTransaccion
+          KeyType: HASH
+      BillingMode: PAY_PER_REQUEST
+
+Outputs:
+  FondosTableName:
+    Description: Nombre de la tabla Fondos
+    Value: !Ref FondosTable
+  ClientesTableName:
+    Description: Nombre de la tabla Clientes
+    Value: !Ref ClientesTable
+  TransaccionesTableName:
+    Description: Nombre de la tabla Transacciones
+    Value: !Ref TransaccionesTable
