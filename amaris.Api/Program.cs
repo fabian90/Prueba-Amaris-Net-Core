@@ -2,8 +2,19 @@ using amaris.Api.IoC;
 using amaris.Infrastructure.Data;
 using FluentValidation.AspNetCore;
 
+var allowSpecificOrigins = "AllowSpecificOrigins";
 var builder = WebApplication.CreateBuilder(args);
-
+string[] lOrigins = builder.Configuration.GetValue<string>("Origins").Split(",");
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: allowSpecificOrigins,
+                      policy =>
+                      {
+                          policy.WithOrigins(lOrigins);// Permitir cualquier origen
+                          policy.AllowAnyMethod();// Permitir cualquier método (GET, POST, PUT, DELETE, etc.)
+                          policy.AllowAnyHeader();// Permitir cualquier encabezado
+                      });
+});
 // Add services to the container.
 // Registrar los servicios
 builder.Services.AddControllers()
@@ -31,7 +42,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseCors(allowSpecificOrigins); // Aplicar la política CORS
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
