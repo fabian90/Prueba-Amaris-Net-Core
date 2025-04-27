@@ -8,7 +8,7 @@ WORKDIR /app
 COPY amaris.Api/*.csproj ./amaris.Api/
 COPY amaris.Core/*.csproj ./amaris.Core/
 COPY amaris.Infrastructure/*.csproj ./amaris.Infrastructure/
-COPY amaris.Commons/*.csproj ./amaris.Commons/
+COPY Commos/*.csproj ./Commos/
 
 RUN dotnet restore amaris.Api/amaris.Api.csproj
 
