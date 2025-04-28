@@ -42,17 +42,17 @@ jobs:
       # 6. Loguearse en AWS ECR
       - name: Login to Amazon ECR
         run: |
-          aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com
+          aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.us-east-1.amazonaws.com
 
       # 7. Etiquetar la imagen
       - name: Tag Docker image
         run: |
-          docker tag amaris-api:${{ env.IMAGE_VERSION }} <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com/amaris-api:${{ env.IMAGE_VERSION }}
+          docker tag amaris-api:${{ env.IMAGE_VERSION }} ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.us-east-1.amazonaws.com/amaris-api:${{ env.IMAGE_VERSION }}
 
       # 8. Subir la imagen a ECR
       - name: Push Docker image to ECR
         run: |
-          docker push <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com/amaris-api:${{ env.IMAGE_VERSION }}
+          docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.us-east-1.amazonaws.com/amaris-api:${{ env.IMAGE_VERSION }}
 
       # 9. Registrar la Task Definition en ECS
       - name: Register ECS task definition
@@ -62,7 +62,7 @@ jobs:
             --network-mode awsvpc \
             --container-definitions '[{
               "name": "amaris-api",
-              "image": "<aws_account_id>.dkr.ecr.us-east-1.amazonaws.com/amaris-api:${{ env.IMAGE_VERSION }}",
+              "image": "${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.us-east-1.amazonaws.com/amaris-api:${{ env.IMAGE_VERSION }}",
               "memory": 512,
               "cpu": 256,
               "essential": true,
