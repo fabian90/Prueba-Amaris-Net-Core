@@ -1,4 +1,4 @@
-name: Deploy to AWS Fargate
+name: Deploy to AWS EC2
 
 on:
   push:
@@ -54,27 +54,14 @@ jobs:
         run: |
           docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.us-east-1.amazonaws.com/amaris-api:${{ env.IMAGE_VERSION }}
 
-      # 9. Registrar la Task Definition en ECS
-      - name: Register ECS task definition
+      # 9. Desplegar la imagen Docker en EC2 vía SSH
+      - name: Deploy Docker image on EC2
+        env:
+          EC2_HOST: ${{ secrets.EC2_HOST }}
+          EC2_USER: ${{ secrets.EC2_USER }}
+          EC2_KEY: ${{ secrets.EC2_KEY }}
         run: |
-          aws ecs register-task-definition \
-            --family amaris-api-task \
-            --network-mode awsvpc \
-            --container-definitions '[{
-              "name": "amaris-api",
-              "image": "${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.us-east-1.amazonaws.com/amaris-api:${{ env.IMAGE_VERSION }}",
-              "memory": 512,
-              "cpu": 256,
-              "essential": true,
-              "portMappings": [{"containerPort": 80, "hostPort": 80, "protocol": "tcp"}]
-            }]'
-
-      # 10. Actualizar el servicio ECS para usar la nueva imagen
-      - name: Update ECS service
-        run: |
-          aws ecs update-service \
-            --cluster amaris-fondos-cluster \
-            --service amaris-api-service \
-            --task-definition amaris-api-task \
-            --desired-count 1 \
-            --force-new-deployment
+          echo "$EC2_KEY" > ec2_key.pem
+          chmod 600 ec2_key.pem
+          ssh -o StrictHostKeyChecking=no -i ec2_key.pem $EC2_USER@$EC2_HOST "docker pull ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.us-east-1.amazonaws.com/amaris-api:${{ env.IMAGE_VERSION }} && docker stop amaris-api || true && docker rm amaris-api || true && docker run -d --name amaris-api -p 80:80 ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.us-east-1.amazonaws.com/amaris-api:${{ env.IMAGE_VERSION }}"
+          rm ec2_key.pem

@@ -2,27 +2,33 @@ AWSTemplateFormatVersion: '2010-09-09'
 Description: Roles IAM para la aplicación
 
 Resources:
-  ECSRole:
+  EC2InstanceRole:
     Type: AWS::IAM::Role
     Properties:
-      RoleName: amaris-ecs-role
+      RoleName: amaris-ec2-role
       AssumeRolePolicyDocument:
         Version: '2012-10-17'
         Statement:
           - Effect: Allow
             Principal:
-              Service: ecs-tasks.amazonaws.com
+              Service: ec2.amazonaws.com
             Action: sts:AssumeRole
       Policies:
-        - PolicyName: amaris-ecs-policy
+        - PolicyName: amaris-ec2-policy
           PolicyDocument:
             Version: '2012-10-17'
             Statement:
               - Effect: Allow
                 Action:
                   - dynamodb:*
+                  - ecr:GetAuthorizationToken
+                  - ecr:BatchCheckLayerAvailability
+                  - ecr:GetDownloadUrlForLayer
+                  - ecr:BatchGetImage
+                  - logs:*
+                  - ec2:Describe*
                 Resource: "*"
 
 Outputs:
-  ECSRoleArn:
-    Value: !GetAtt ECSRole.Arn
+  EC2InstanceRoleArn:
+    Value: !GetAtt EC2InstanceRole.Arn
