@@ -41,11 +41,6 @@ Resources:
           Ebs:
             VolumeSize: 8
             VolumeType: gp2
-      NetworkInterfaces:
-        - AssociatePublicIpAddress: true
-          DeviceIndex: 0
-          GroupSet:
-            - !Ref EC2SecurityGroup
 
 Outputs:
   InstanceId:
