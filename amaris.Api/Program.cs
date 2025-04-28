@@ -11,7 +11,7 @@ builder.Services.AddCors(options =>
                       policy =>
                       {
                           policy.WithOrigins(lOrigins);// Permitir cualquier origen
-                          policy.AllowAnyMethod();// Permitir cualquier método (GET, POST, PUT, DELETE, etc.)
+                          policy.AllowAnyMethod();// Permitir cualquier mï¿½todo (GET, POST, PUT, DELETE, etc.)
                           policy.AllowAnyHeader();// Permitir cualquier encabezado
                       });
 });
@@ -32,17 +32,14 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 // Configure the HTTP request pipeline.
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
-{
+
     app.UseSwagger();
     app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "FabianVargasTovar.Api v1"));
-}
-if (app.Environment.IsDevelopment())
-{
+
     app.UseSwagger();
     app.UseSwaggerUI();
-}
-app.UseCors(allowSpecificOrigins); // Aplicar la política CORS
+
+app.UseCors(allowSpecificOrigins); // Aplicar la polï¿½tica CORS
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
